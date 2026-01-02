@@ -20,6 +20,4 @@ Teste realizado no dia 1 de janeiro de 2026
 ![Termo 1](./assets/termo_1.png) ![Termo 2](./assets/termo_2.png) ![Termo 3](./assets/termo_3.png)
 
 ## Considerações futuras
-Apesar de sua eficiência, e de apresentar o funcionamento de modo simples e entendível, o método atual não comporta resiliência para mudanças futuras na lógica do código.
-
-Utilizar Playwright como fallback seria uma opção para ter mais consistência e facilidade em encontrar a resposta, permitindo a extração dinâmica de dados diretamente da memória do navegador. Entretanto, além tornar o processo menos eficiente, dada a possibilidade de mudanças de nomes de variáveis e ofuscações do código, a obtenção do resultado ficaria sujeita à necessidade de intervenção manual do usuário para identificar as variáveis corretas.
+Apesar de sua eficiência, e de apresentar o funcionamento de modo simples e entendível, o método atual não comporta resiliência para mudanças futuras na lógica do código. Utilizar Playwright como fallback seria uma opção para ter mais consistência e facilidade em encontrar a resposta, permitindo a extração dinâmica de dados diretamente da memória do navegador. Entretanto, além tornar o processo menos eficiente, dada a possibilidade de mudanças de nomes de variáveis e ofuscações do código, a obtenção do resultado ficaria sujeita à necessidade de intervenção manual do usuário para identificar as variáveis corretas.

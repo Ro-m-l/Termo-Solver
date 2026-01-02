@@ -21,3 +21,5 @@ Teste realizado no dia 1 de janeiro de 2026
 
 ## Considerações futuras
 Apesar de sua eficiência, e de apresentar o funcionamento de modo simples e entendível, o método atual não comporta resiliência para mudanças futuras na lógica do código. Utilizar Playwright como fallback seria uma opção para ter mais consistência e facilidade em encontrar a resposta, permitindo a extração dinâmica de dados diretamente da memória do navegador. Entretanto, além tornar o processo menos eficiente, dada a possibilidade de mudanças de nomes de variáveis e ofuscações do código, a obtenção do resultado ficaria sujeita à necessidade de intervenção manual do usuário para identificar as variáveis corretas.
+
+Embora não seja o objetivo principal deste exemplo, vale ressaltar que a lógica implementada permite prever as respostas de datas futuras com modificações mínimas, devido à sua natureza determinística.

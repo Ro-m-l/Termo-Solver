@@ -8,7 +8,7 @@ Através da análise do código-fonte, identificou-se que o jogo opera inteirame
 
 Não obstante a similaridade, para a escolha de palavras nos modos Dueto e Quarteto (de duas e quatro palavras, respectivamente), são utilizadas duas strings previamente codificadas em Base64 para cada uma das situações. Uma vez decodificadas, têm seus elementos iterados e utilizados como índice para a lista de palavras. Assim, todos modos obtêm seus resultados, em um processo matemático inteiramente reproduzível sem acesso ao servidor.
 
-O script desenvolvido leva em consideração e replica todos esses fatores para obter as respostas.
+O script desenvolvido leva em consideração e replica todos esses fatores para obter as respostas. Os nomes das variáveis no script foram mantidos propositalmente próximos aos encontrados no código JavaScript original do website para estabelecer um paralelismo e facilitar a rastreabilidade da lógica aplicada.
 
 ## Exemplo
 Teste realizado no dia 1 de janeiro de 2026

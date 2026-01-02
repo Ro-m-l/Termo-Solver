@@ -4,13 +4,9 @@ Um trecho de código em Python feito como um exemplo de engenharia reversa para 
 ## Explicação do código
 O objetivo do jogo é adivinhar a palavra dadas as dicas fornecidas e várias tentativas. Funciona com uma lista de palavras, da qual um grupo de palavras é atualizado como resposta diariamente.
 
-Através da análise do código-fonte, identificou-se que o jogo opera inteiramente no frontend, sem requisições de validação ao backend. Nota-se, também, que a lógica do código do jogo depende inteiramente de cálculo temporal.
+Através da análise do código-fonte, identificou-se que o jogo opera inteiramente no frontend, sem requisições de validação ao backend. Nota-se, também, que a lógica do código do jogo depende inteiramente de cálculo temporal. O Modo Termo (partida com apenas uma palavra) depende, assim como todos outros, da diferença de tempo entre um dia configurado como base e o dia atual (no fuso horário de São Paulo), além de outro cálculo envolvendo o tamanho da lista e a quantidade de respostas necessárias no modo.
 
-O Modo Termo (partida com apenas uma palavra) depende, assim como todos outros, da diferença de tempo entre um dia configurado como base e o dia atual (no fuso horário de São Paulo), além de outro cálculo envolvendo o tamanho da lista e a quantidade de respostas necessárias no modo.
-
-Não obstante a similaridade, para a escolha de palavras nos modos Dueto e Quarteto (de duas e quatro palavras, respectivamente), são utilizadas duas strings previamente codificadas em Base64 para cada uma das situações. Uma vez decodificadas, têm seus elementos iterados e utilizados como índice para a lista de palavras.
-
-Assim, as três opções obtêm seus resultados, em um processo matemático inteiramente reproduzível sem acesso ao servidor.
+Não obstante a similaridade, para a escolha de palavras nos modos Dueto e Quarteto (de duas e quatro palavras, respectivamente), são utilizadas duas strings previamente codificadas em Base64 para cada uma das situações. Uma vez decodificadas, têm seus elementos iterados e utilizados como índice para a lista de palavras. Assim, todos modos obtêm seus resultados, em um processo matemático inteiramente reproduzível sem acesso ao servidor.
 
 O script desenvolvido leva em consideração e replica todos esses fatores para obter as respostas.
 

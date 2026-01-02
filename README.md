@@ -6,7 +6,7 @@ O objetivo do jogo é acertar a palavra dadas as dicas fornecidas. Funciona com 
 Através da análise do código-fonte, identificou-se que o jogo opera inteiramente no frontend, sem requisições de validação ao backend. Nota-se, também, que a lógica do código do jogo depende inteiramente de cálculo temporal.
 O modo termo (de uma palavra) depende, assim como todos outros, da diferença de tempo entre um dia configurado como base e o dia atual (no fuso horário de São Paulo), além de outro cálculo envolvendo o tamanho da lista e a quantidade de respostas.
 Não obstante a similaridade, para a escolha de palavras nos modos de duas e quatro palavras (dueto e quarteto, respectivamente), são utilizadas duas strings previamente codificadas em base64 para cada uma das situações. Uma vez decodificadas, têm seus elementos iterados e utilizados como index para a lista de palavras.
-Assim, as três opções obtém seus resultados, em um processo matemático inteiramente repetivel (outra palavra) sem acesso ao servidor.
+Assim, as três opções obtém seus resultados, em um processo matemático inteiramente reproduzível sem acesso ao servidor.
 O script desenvolvido leva em consideração e replica todos esses fatores para obter as respostas.
 
 ## Exemplo

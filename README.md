@@ -12,7 +12,11 @@ O script desenvolvido leva em consideração e replica todos esses fatores para 
 ## Exemplo
 Teste realizado no dia 1 de janeiro de 2026
 
+### Previsão do dia
+![Previsão](./assets/termo_previsao.png)
 
+### Resultados
+![Termo 1](./assets/termo_1.png) ![Termo 2](./assets/termo_2.png) ![Termo 3](./assets/termo_3.png)
 
 ## Considerações futuras
 Apesar de sua eficiência, e de apresentar o funcionamento de modo simples e entendível, o método atual não comporta resiliência para mudanças futuras na lógica do código.

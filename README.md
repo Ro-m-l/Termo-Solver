@@ -10,6 +10,8 @@ Assim, as três opções obtêm seus resultados, em um processo matemático inte
 O script desenvolvido leva em consideração e replica todos esses fatores para obter as respostas.
 
 ## Exemplo
+Teste realizado no dia 1 de janeiro de 2026
+
 
 
 ## Considerações futuras

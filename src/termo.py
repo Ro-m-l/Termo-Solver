@@ -47,4 +47,4 @@ for x in bc:
 
     for t in range(x):
         results.append(o[r] if 1 == x else Pf[i[t]])
-    print(f'{dic[x]}: {results}')
+    print(f'{dic[x]}: {", ".join(results)}')
